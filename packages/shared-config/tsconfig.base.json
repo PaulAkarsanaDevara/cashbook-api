@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@shared-utils": ["packages/shared-utils/src"],
+      "@shared-utils/*": ["packages/shared-utils/src/*"]
+    }
+
+    // "noEmit": true
+  }
+}
