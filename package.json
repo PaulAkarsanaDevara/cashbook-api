@@ -9,6 +9,7 @@
     "packages/*"
   ],
   "scripts": {
+    "dev:auth": "npm run dev --workspace=apps/auth-service",
     "build": "npm run build --workspaces",
     "build:shared-utils": "npm run build --workspace=packages/shared-utils",
     "lint": "eslint .",
